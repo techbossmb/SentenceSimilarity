@@ -39,7 +39,7 @@ def main():
 	all_texts = [utils.clean_str(s) for s in all_texts]
 	tokenizer = Tokenizer()
 	tokenizer.fit_on_texts(all_texts)
-  with open('tokenizer.tk', 'w') as token_file:
+  	with open('tokenizer.tk', 'w') as token_file:
 		pickle.dump(tokenizer, token_file)
 	sequences = tokenizer.texts_to_sequences(all_texts)
 	word_index = tokenizer.word_index
