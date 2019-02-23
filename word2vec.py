@@ -11,7 +11,7 @@ def load_word2vec(filename):
 	np.random.seed(1337)
 	sym = 2 * (np.random.rand(300)-0.5)
 	embedding = w2v.load_word2vec_format(filename, binary=True)
-	print 'Loaded word embedding'
+	print('Loaded word embedding')
 	return embedding
 
 def lookup_embedding(w2vmodel, sentences, opts, flatten):
