@@ -3,7 +3,7 @@ import argparse
 import numpy as np
 import utils
 from keras.layers import Input, Dense, LSTM, GRU, RepeatVector, Activation, \
-						Dropout, multiply, Lambda, add, Bidirectional, concatenate, Embedding
+		Dropout, multiply, Lambda, add, Bidirectional, concatenate, Embedding
 from keras.models import Model, Sequential, load_model
 from keras.callbacks import TensorBoard
 import random
