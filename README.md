@@ -5,8 +5,8 @@ Identify sentences that are similar in meaning. Given two sentences, this deep l
 + 0-two sentences are different
 
 
-Can be used to in problems like
-+ identify duplicate post such as similar questions on stackoverflow, quora etc.
+Can be used for problems where you need to determine if two sentences have the same semantic meaning
++ Identify duplicate post such as similar questions on stackoverflow, quora etc.
 + FAQbot - mapping user request to a database of FAQs and returning the correspondning FAQ answer.
 
 ![alt text](https://github.com/techbossmb/SentenceSimilarity/blob/master/sentencemodel.JPG?raw=true)
